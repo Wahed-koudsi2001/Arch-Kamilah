@@ -3136,7 +3136,7 @@ p {
     font-family: Ednimpkish, Arial, sans-serif;
     font-weight: 400;
     line-height: 0.82;
-    font-size: calc(var(--title-size) * 0.70);
+    font-size: calc(var(--title-size) * 0.7);
     flex-flow: row;
     justify-content: space-between;
     width: 100%;
@@ -3253,6 +3253,14 @@ p {
 }
 
 @media screen and (max-width: 991px) {
+    .single-tag-wrap.tag-oost,
+    .single-tag-wrap.tag-west {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
     .header-image {
         height: 105%;
     }
@@ -3403,6 +3411,7 @@ p {
 
     .header-p {
         font-size: 1.25em;
+        color: #000;
     }
 
     .header-function-text {
@@ -3625,7 +3634,7 @@ p {
     }
 
     .footer-h2 {
-        font-size: calc(var(--title-size) * .8);
+        font-size: calc(var(--title-size) * 0.8);
     }
 
     .header-h2-span-velten {

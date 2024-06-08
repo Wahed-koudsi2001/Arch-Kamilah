@@ -2380,7 +2380,6 @@ p {
 
 .header-content {
     padding-top: var(--gap);
-    padding-bottom: var(--gap);
     min-height: calc(100 * var(--vh));
     flex-flow: column;
     justify-content: flex-end;
@@ -2398,7 +2397,7 @@ p {
 }
 
 .header-h1 {
-    color: var(--color-secondary);
+    color: #fff;
     font-family: Ednimpkish, Arial, sans-serif;
     font-size: var(--title-size);
     flex-flow: column;
@@ -2435,7 +2434,7 @@ p {
 }
 
 .header-p {
-    color: var(--color-light);
+    color: #000;
     font-family: Telegraf, Arial, sans-serif;
     font-size: 1.4em;
 }
@@ -3260,7 +3259,7 @@ p {
         -moz-transform: translate(0);
         -ms-transform: translate(0);
         -o-transform: translate(0);
-}
+    }
     .header-image {
         height: 105%;
     }

@@ -2233,7 +2233,7 @@ textarea.w-select {
     --color-secondary: var(--color-lightgreen);
     --title-size: 5rem;
     --color-green: #899388;
-    --color-primary: #2b23e8;
+    --color-primary: #000;
     --vh-in-px: 8px;
     --vh: var(--vh-in-px);
     --color-black: black;
@@ -3085,6 +3085,7 @@ p {
     padding-right: 0.5em;
     font-size: 1.75em;
     line-height: 1;
+    color: #000;
 }
 
 .link-social {

@@ -4257,3 +4257,9 @@ h2 .upper-case {
         transform: translateY(0em) rotate(0.001deg);
     }
 }
+.wahed-d-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
